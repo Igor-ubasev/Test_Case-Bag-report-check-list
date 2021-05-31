@@ -1,0 +1,133 @@
+Поле Name:
+Позитивные проверки:
+1.	Ввести латинскими буквами “User”  
+2.	Ввести латинскими буквами “User1”  
+3.	Ввести латинскими буквами “User_new”  
+4.	Ввести латинскими буквами “User-new”  
+5.	Ввести латинскими буквами “User_”  
+6.	Ввести латинскими буквами “User-”  
+7.	Ввести латинскими буквами “User new” (использовать пробел) 
+8.	Ввести латинскими буквами “user”  
+9.	Ввести латинскими буквами “USER”  
+10.	Ввести латинскими буквами “Us ”  
+11.	Ввести латинскими буквами “Use ”  
+12.	Ввести латинскими буквами “UsEr ”  
+13.	Ввести латинскими буквами” esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu” (256 символов)
+14.	Ввести латинскими буквами “ ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus”  (255 символов)
+
+Негативные проверки:
+15.	Ввести латинскими буквами “U ”  
+16.	Ввести латинскими буквами “ srssuruueurssressueusssrsersuersrserueusussersrusssrseeesuureesrersrrsreessrusesssrueeueessuuerrruerusrrrrseerrserssruuesueeuusueeerrresresesrsesuereurssssrseurersueursueursseuuressueurssuuesursueuserrerruureeseeersuesueuueseuursureeeusruusuruueuseeuussuerr ”  (257 символов).
+17.	Ввести латинскими буквами”1user”  
+18.	Ввести латинскими буквами”_user”  
+19.	Ввести латинскими буквами”user@user”  
+20.	Ввести  “!@#$%^&*()»№;%:?><” (использовать только символы)  
+21.	Оставить поле пустым 
+22.	Ввести кириллическими буквами”Имя”  
+23.	Ввести только цифры «11111».
+24.	Проверка на xss атаку <script>alert()</script> 
+
+
+Поле Surname:
+Позитивные проверки:
+Позитивные проверки:
+1.	Ввести латинскими буквами “User”  
+2.	Ввести латинскими буквами “User1”  
+3.	Ввести латинскими буквами “User_new”  
+4.	Ввести латинскими буквами “User-new”  
+5.	Ввести латинскими буквами “User_”  
+6.	Ввести латинскими буквами “User-”  
+7.	Ввести латинскими буквами “User new” (использовать пробел) 
+8.	Ввести латинскими буквами “user”  
+9.	Ввести латинскими буквами “USER”  
+10.	Ввести латинскими буквами “Us ”  
+11.	Ввести латинскими буквами “Use ”  
+12.	Ввести латинскими буквами “UsEr ”  
+13.	Ввести латинскими буквами” esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu” Expected: можно.(256 символов)
+14.	Ввести латинскими буквами “ ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus” (255 символов) 
+
+Негативные проверки:
+15.	Ввести латинскими буквами “U ”  
+16.	Ввести латинскими буквами “ srssuruueurssressueusssrsersuersrserueusussersrusssrseeesuureesrersrrsreessrusesssrueeueessuuerrruerusrrrrseerrserssruuesueeuusueeerrresresesrsesuereurssssrseurersueursueursseuuressueurssuuesursueuserrerruureeseeersuesueuueseuursureeeusruusuruueuseeuussuerr ”  (257 символов)
+17.	Ввести латинскими буквами”1user”  
+18.	Ввести латинскими буквами”_user”  
+19.	Ввести латинскими буквами”user@user”  
+20.	Ввести  “!@#$%^&*()»№;%:?><” (использовать только символы)  
+21.	Оставить поле пустым 
+22.	Ввести кириллическими буквами”Имя” 
+23.	Ввести только цифры «11111».
+24.	Проверка на xss атаку <script>alert()</script> 
+
+
+
+
+Поле email:
+1.	Пустое поле email
+2.	Ввести user@mail.ru
+3.	Ввести USER@MAIL.RU
+4.	Ввести user123@mail.ru
+5.	Ввести 123user@mail.ru
+6.	Ввести user@123mail.ru
+7.	Ввести user-user@mail.ru
+8.	Ввести user@mail-mail.ru
+9.	Ввести user@mail.ru
+10.	Ввести user@mail.ru
+11.	Ввести user.user@mail.ru
+12.	Ввести user@mail..ru
+13.	Ввести user@mailru
+14.	Ввести ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreu@mail.ru(64 символа в имени пользователя)
+15.	Ввести ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusre@mail.ru(63 символа в имени пользователя)
+16.	Ввести ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreuu@mail.ru(65 символа в имени пользователя)
+17.	Ввести user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialilillliml.ru(255 символов в доменной части)
+18.	Ввести user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllim.ru(254 символа в доменной части)
+19.	Ввести user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllimjj.ru(256 символа в доменной части)
+20.	ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreu@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialilillliml.ru (64 символа в имени пользователя и 255 в доменной части)
+21.	ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreup@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllimln.ru (65 символа в имени пользователя и 256 в доменной части)
+22.	ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusre@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllim.ru (63 символа в имени пользователя и 254 в доменной части)
+23.	Ввести usermail.ru
+24.	Ввести user user@mail.ru
+25.	Ввести user@mail mail.ru
+26.	Ввести @mail.ru
+27.	Ввести user
+28.	Ввести user@@mail.ru
+29.	Ввести имя@mail.ru
+30.	Ввести !user@mail.ru
+31.	Ввести user№;@mail.ru
+32.	Ввести user_user@mail.ru
+33.	Ввести user@домен.рф
+34.	Проверка на xss атаку <script>alert()</script> 
+
+
+
+Поле password
+1.	Ввести “Password1”
+2.	Ввести “Pass1”(5 символов)
+3.	Ввести “Pass1s”(6 символов)
+4.	Ввести “Pas1”(4 символа)
+5.	Ввести” Poass1awpdapsaad”(16 символов)
+6.	Ввести” Poassawpdapsaad1d”(17 символов)
+7.	Ввести” Poass1awpapsaad”(15 символов)
+8.	Ввести “Пароль1”
+9.	Ввести “!Password1”
+10.	Ввести “password”
+11.	Ввести “password1”
+12.	Ввести “PASSWORD1”
+13.	Ввести “!@#$%^&*()»№;%:?><”
+14.	Оставить поле пустым
+15.	Ввести “Password 1”(использовать пробел)
+16.	Ввести “Password-1”
+17.	Ввести “Password_1”
+18.	Ввести “paSsword1”
+19.	Ввести “1Password1”
+20.	Проверка на xss атаку <script>alert()</script> 
+
+
+
+
+
+
+
+
+
+
+

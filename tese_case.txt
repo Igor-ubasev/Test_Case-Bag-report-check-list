@@ -1,0 +1,1508 @@
+                  Регистрация нового пользователя, тестирование поля Name.
+Требования: 
+•	Принимает латинские буквы, цифры, спец. символы только ‘–‘, ‘_’ и пробел, 
+•	Max кол-во символов -256, min – 2, 
+•	Регистр любой, 
+•	Первой должна быть буква (цифры и символы первыми нельзя), 
+•	Последней не имеет значения, 
+•	Если поле оставить пустым: должно обвестись в красную рамочку и вывестись сообщение: «Error: Error: All Fields are Required»
+
+ID 01
+Название тест кейса: Регистрация нового пользователя, ввести имя латинскими буквами.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 02
+Название тест кейса: Регистрация нового пользователя, ввести имя латинскими буквами и с цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User1
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User1 User»
+Результат теста: Passed
+
+
+ID 03
+Название тест кейса: Регистрация нового пользователя, ввести двойное имя через спецсимвол «_».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Проверка поля “Name” при вводе имени с спецсимволом «_»
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User_new
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User_new User»
+Результат теста: Passed
+
+
+
+ID 04
+Название тест кейса:  Регистрация нового пользователя, ввести  двойное имя через спецсимвол «-».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User-new
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User-new User»
+Результат теста: Passed
+
+
+ID 05
+Название тест кейса: Регистрация нового пользователя, ввести имя латинскими буквами и с спецсимволом «_»  конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User_
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User_User»
+Результат теста: Passed
+
+
+ID 06
+Название тест кейса: Регистрация нового пользователя, ввести имя латинскими буквами и с спецсимволом «-»  конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User-
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User-User»
+Результат теста: Passed
+
+ID 07	
+Название тест кейса: Регистрация нового пользователя, ввести  двойное имя латинскими буквами с использованием пробела.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User new
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User new User»
+Результат теста: Passed
+
+ID 08	
+Название тест кейса: Регистрация нового пользователя, ввести  имя латинскими буквами в верхнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: USER
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: USER User»
+Результат теста: Passed
+
+
+ID 09	
+Название тест кейса: Регистрация нового пользователя, ввести  имя из 2 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: Us
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: Us User»
+Результат теста: Failed
+
+
+ID 10
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из 3 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: Use
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: Use User»
+Результат теста: Failed
+
+ID 11
+Название тест кейса: Регистрация нового пользователя, ввести имя латинскими буквами с буквой в верхнем регистре в середине слова. 
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: UsEr
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: UsEr User»
+Результат теста: Passed
+
+
+ID 12
+Название тест кейса:  Регистрация нового пользователя, ввести  имя из 256 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu (256 символов)
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu User»
+Результат теста: Failed
+
+ID 13
+Название тест кейса: Регистрация нового пользователя, ввести  имя из 255 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus (255 символов)
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus User»
+Результат теста: Failed
+
+
+ID 14
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из 1 латинской буквы.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: U
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Passed
+
+ID 15
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из 257 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: srssuruueurssressueusssrsersuersrserueusussersrusssrseeesuureesrersrrsreessrusesssrueeueessuuerrruerusrrrrseerrserssruuesueeuusueeerrresresesrsesuereurssssrseurersueursueursseuuressueurssuuesursueuserrerruureeseeersuesueuueseuursureeeusruusuruueuseeuussuerr(257 символов)
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Passed
+
+
+ID 16
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из латинских букв 
+начинающегося с цифры.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: 1user 
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+
+
+ID 17
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из латинских букв начинающегося с спецсимвола «_».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: _user
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 18
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из латинских букв содержащее @.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: user@user
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 19
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из набора спецсимволов.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: !@#$%^&*()»№;%:?><
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 20
+Название тест кейса: Регистрация нового пользователя, оставить поле Name пустым.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: Оставить поле пустым
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Passed
+
+
+ID 21
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из кириллических букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: Имя
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Passed
+
+
+
+ID 22
+Название тест кейса: Регистрация нового пользователя, ввести  имя  из цифр.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: 11111
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 23
+Название тест кейса: Регистрация нового пользователя, ввести  скрипт XSS атаки.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: <script>alert()</script>
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 24	
+Название тест кейса: Регистрация нового пользователя, ввести  имя латинскими буквами в нижнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: user
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: user User»
+Результат теста: Passed
+
+
+
+
+
+
+Регистрация нового пользователя, тестирование поля Surname
+Требования: 
+•	Принимает латинские буквы, цифры, спец. символы только ‘–‘, ‘_’ и пробел, 
+•	Max кол-во символов -256, min – 2, 
+•	Регистр любой
+•	Первой должна быть буква (цифры и символы первыми нельзя), 
+•	Последней не имеет значения, 
+•	Если поле оставить пустым: должно появится сообщение: «Success! Hello: User», так как поле является не обязательным для заполнения.
+•	Поле не обязательно для заполнения
+
+
+
+ID 01
+Название тест кейса: Регистрация нового пользователя, ввести фамилию латинскими буквами.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 02
+Название тест кейса: Регистрация нового пользователя, ввести фамилию латинскими буквами и с цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User1
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User1»
+Результат теста: Passed
+
+
+ID 03
+Название тест кейса: Регистрация нового пользователя, ввести двойную фамилию через спецсимвол «_».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User_new
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	 Кликнуть по кнопке “Submit”
+
+Ожидаемый результат: Сообщение «Success! Hello: User User_new»
+Результат теста: Passed
+
+
+
+ID 04
+Название тест кейса: Регистрация нового пользователя, ввести двойную фамилию через спецсимвол «-».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User-new
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User-new»
+Результат теста: Passed
+
+
+ID 05
+Название тест кейса: : Регистрация нового пользователя, ввести фамилию латинскими буквами и с спецсимволом «_» в  конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User_
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User_»
+Результат теста: Passed
+
+
+ID 06
+Название тест кейса: Регистрация нового пользователя, ввести фамилию латинскими буквами и с спецсимволом «-» в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User-
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User-»
+Результат теста: Passed
+
+
+ID 07	
+Название тест кейса: Регистрация нового пользователя, ввести  двойную фамилию латинскими буквами с использованием пробела.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User new
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User new»
+Результат теста: Passed
+
+
+
+ID 08	
+Название тест кейса Регистрация нового пользователя, ввести  фамилию латинскими буквами в верхнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: USER
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User USER»
+Результат теста: Passed
+
+ID 09	
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию из 2 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: Us
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User Us»
+Результат теста: Passed
+
+
+ID 10
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из 3 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: Use
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User Use»
+Результат теста: Passed
+
+ID 11
+Название тест кейса: Регистрация нового пользователя, ввести фамилию латинскими буквами с буквой в верхнем регистре в середине слова. 
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: UsEr
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User UsEr»
+Результат теста: Passed
+
+ID 12
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию из 256 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User 
+2.	Ввести в поле Surname: esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu (256 символов)
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User esreserssssruuerrsrssruueesuureseuessserurereuuruusuusrusrseeusssuuuusueerrususeesurssrsessrusuueessuesueuereusuuuseseursuesuersrrseesureururreusreuererrueruuuruuuuuseusrusuesrusseuerrursuursureusrrreereusrssrrsruurueurrerrrursuusessrersesrueesuusruururesu»
+Результат теста: Passed
+
+
+ID 13
+Название тест кейса:  Регистрация нового пользователя, ввести  фамилию из 255 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus (255 символов)
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus»
+Результат теста: Passed
+
+
+ID 14
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из 1 латинской буквы.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: U
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 15
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из 257 латинских букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User 
+2.	Ввести в поле Surname: srssuruueurssressueusssrsersuersrserueusussersrusssrseeesuureesrersrrsreessrusesssrueeueessuuerrruerusrrrrseerrserssruuesueeuusueeerrresresesrsesuereurssssrseurersueursueursseuuressueurssuuesursueuserrerruureeseeersuesueuueseuursureeeusruusuruueuseeuussuerr(257 символов)
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 16
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из латинских букв начинающегося с цифры.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: 1user
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+
+ID 17
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию из латинских букв начинающегося с спецсимвола «_».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: _user
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 18
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из латинских букв содержащее @.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: user@user
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 19
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из набора спецсимволов.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: !@#$%^&*()»№;%:?><
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 20
+Название тест кейса: Регистрация нового пользователя, оставить поле Surname пустым.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: Оставить поле пустым
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User»
+Результат теста: Failed
+
+
+ID 21
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию из кириллических букв.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: Имя
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+
+ID 22
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию  из цифр.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: 11111
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 23
+Название тест кейса: Регистрация нового пользователя, ввести  скрипт XSS атаки.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: <script>alert()</script>
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 24	
+Название тест кейса: Регистрация нового пользователя, ввести  фамилию латинскими буквами в нижнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: user
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User user»
+Результат теста: Passed
+
+
+
+
+
+
+
+                           
+
+Регистрация нового пользователя,  тестирование поля Email
+•	Поле Email должен содержать один символ @.
+
+ID 01
+Название тест кейса: Регистрация нового пользователя, ввести  email  латинскими буквами в нижнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 02
+Название тест кейса: Регистрация нового пользователя, ввести  email  с цифрами в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582 
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user123@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 03
+Название тест кейса: Регистрация нового пользователя, ввести  email  в верхнем регистре.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: USER@MAIL.RU
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 04
+Название тест кейса : Регистрация нового пользователя, оставить поле  email  пустым.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: Оставить поле пустым
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 05
+Название тест кейса: Регистрация нового пользователя, ввести  email  начинающегося с цифр в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: 123user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 06
+Название тест кейса: Регистрация нового пользователя, ввести  email  начинающейся с цифр в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@123mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 07
+Название тест кейса: Регистрация нового пользователя, ввести  email с спецсиволом «-» в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user-user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 08
+Название тест кейса: Регистрация нового пользователя, ввести  email с спецсиволом «-» в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail-mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 09
+Название тест кейса: Регистрация нового пользователя, ввести  email с точкой в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user.user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 10
+Название тест кейса: Регистрация нового пользователя, ввести  email с 2 точками в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail..ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 11
+Название тест кейса: Регистрация нового пользователя, ввести  email  без точки в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mailru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 12
+Название тест кейса: Регистрация нового пользователя, ввести  email из 64 латинских букв в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreu@mail.ru(64 символа в имени пользователя)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 13
+Название тест кейса: Регистрация нового пользователя, ввести  email из 63 латинских букв в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusre@mail.ru(63 символа в имени пользователя)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 14
+Название тест кейса: Регистрация нового пользователя, ввести  email из 65 латинских букв в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreuu@mail.ru(65 символа в имени пользователя)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 15
+Название тест кейса: Регистрация нового пользователя, ввести  email из 255 латинских букв в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialilillliml.ru(255 символов в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 16
+Название тест кейса: Регистрация нового пользователя, ввести  email из 254 латинских букв в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllim.ru(254 символа в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 17
+Название тест кейса: Регистрация нового пользователя, ввести  email из 256 латинских букв в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@ aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllimjj.ru(256 символа в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 18
+Название тест кейса: Регистрация нового пользователя, ввести  email из 64  латинских букв в имени и 255 в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Проверка поля “Email” на максимальное количество в имени и  доменной части почтового ящика.
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreu@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialilillliml.ru (64 символа в имени пользователя и 255 в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 19
+Название тест кейса: Регистрация нового пользователя, ввести  email из 65  латинских букв в имени и 256 в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusreup@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllimln.ru (65 символа в имени пользователя и 256 в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 20
+Название тест кейса: Регистрация нового пользователя, ввести  email из 63  латинских букв в имени и 254 в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: ereesuursreseseseeeessusussesrrsrreuererrreesseressusreuuueusre@aalimmaillmaailmllalailmlaiiaimimiamaaialmlllamallmamilmlmmlammmmmiiiallmaimmlimaamlimilliiiilmmiliialmiaiamlmiaialililaalliilaaiamlamimmilaaaailmmalmaimlmmmmmmliammmamlmiimallmllialaalimmallaaalaallimlmmmlmlaliaaillallaammamlmaaiimaaaiillmiialililllim.ru (63 символа в имени пользователя и 254 в доменной части)
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+
+ID 21
+Название тест кейса: Регистрация нового пользователя, ввести  email  без «@».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: usermail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 22
+Название тест кейса: Регистрация нового пользователя, ввести  email  c пробелом в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 23
+Название тест кейса: Регистрация нового пользователя, ввести  email  c пробелом в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 24
+Название тест кейса: Регистрация нового пользователя, ввести  email  без имени.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: @mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 25
+Название тест кейса: Регистрация нового пользователя, ввести  email  без доменной части.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 26
+Название тест кейса:  Регистрация нового пользователя, ввести  email  c «@@».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 27
+Название тест кейса: Регистрация нового пользователя, ввести  email  с кириллическими символами в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: имя@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 28
+Название тест кейса: Регистрация нового пользователя, ввести  email  c именем начинающегося с «!».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: !user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 29
+Название тест кейса: Регистрация нового пользователя, ввести  email   содержащий «№;» в имени почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user№;@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 30
+Название тест кейса: Регистрация нового пользователя, ввести  email  содержащий «_» в имени почтового ящика. 
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user_user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 31
+Название тест кейса:  Регистрация нового пользователя, ввести  email  с кириллическими символами в доменной части почтового ящика.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@домен.рф
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 32
+Название тест кейса: Регистрация нового пользователя, ввести  скрипт XSS атаки.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: <script>alert()</script>
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+                      Регистрация нового пользователя, тестирование поля Password
+
+Поле Password: 
+•	min 5 символов
+•	max 16
+•	буквы только латинские, 
+•	Минимально должен включать 1 заглавную букву, 1 строчную и 1 цифру.
+•	Спец символы не принимает.
+
+ID 01
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 8 латинских букв с первой заглавной и цифрой в конце. 
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 02
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 4 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Pass1 (5 символов)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 03
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 5 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Passs1 (6 символов)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 04
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 3 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Pas1 (4 символа)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 05
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 15 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Poassawpdapsaad1 (16 символов)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+ID 06
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 16 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Poassawpdapsaadd1 (17 символов)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 07
+Название тест кейса: Регистрация нового пользователя, ввести пароль из 14 латинских букв с первой заглавной и цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Poassawpapsaad1(15 символов)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Success! Hello: User User»
+Результат теста: Passed
+
+
+ID 08
+Номер 8
+Название тест кейса: Регистрация нового пользователя, ввести пароль из кириллических символов.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Пароль1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 09
+Название тест кейса: Регистрация нового пользователя, ввести пароль начинающиеся с «!».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: !Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 10
+Название тест кейса: Регистрация нового пользователя, ввести пароль нижнем регистре без цифры.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: password
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 11
+Название тест кейса: Регистрация нового пользователя, ввести пароль нижнем регистре с цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 12
+Название тест кейса: Регистрация нового пользователя, ввести пароль верхнем регистре с цифрой в конце.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: PASSWORD1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение«Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 13
+Название тест кейса: Регистрация нового пользователя, ввести пароль из набора спецсимволов.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: !@#$%^&*()»№;%:?><
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 14
+Название тест кейса: Регистрация нового пользователя, оставить поле пустым.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Оставить поле пустым
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 15
+Название тест кейса: Регистрация нового пользователя, ввести пароль из латинских букв с использованием пробела в середине пароля.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password 1(использовать пробел)
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+
+ID 16
+Название тест кейса: Регистрация нового пользователя, ввести пароль из латинских букв с использованием «-» в середине пароля.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: Password-1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 17
+Название тест кейса: Регистрация нового пользователя, ввести пароль латинскими буквами с буквой в верхнем регистре в середине пароля. 
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: paSsword1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+ID 18
+Название тест кейса: Регистрация нового пользователя, ввести пароль начинающиеся с «1».
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: 1Password1
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+ID 19
+Название тест кейса: Регистрация нового пользователя, ввести  скрипт XSS атаки.
+Окружение: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
+Предусловие тест кейса: Перейти по ссылке http://itcareer.pythonanywhere.com/ 
+Шаги тест кейса:
+1.	Ввести в поле Name: User
+2.	Ввести в поле Surname: User
+3.	Ввести в поле Emai: user@mail.ru
+4.	Ввести в поле Password: <script>alert()</script>
+5.	Кликнуть по кнопке “Submit”
+Ожидаемый результат: Сообщение «Error: Error: All Fields are Required»
+Результат теста: Failed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
