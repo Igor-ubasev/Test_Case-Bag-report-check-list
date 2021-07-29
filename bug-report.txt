@@ -1,7 +1,7 @@
 ID 01
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582 
-Summary: Ошибка “Error” в поле Name при вводе 2 латинских букв. 
+Summary: Появляется сообщение об ошибке «Error» при вводе 2 латинских букв в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -16,7 +16,7 @@ Expected result: Сообщение «Success! Hello: Us User»
 ID 02
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582 
-Summary: Ошибка “Error” в поле Name при вводе 3 латинских букв. 
+Summary: Появляется сообщение об ошибке «Error» при вводе 3 латинских букв в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -31,7 +31,7 @@ Expected result: Сообщение «Success! Hello: Us User»
 ID 03
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Ошибка “Error” в поле Name при вводе 256 латинских букв. 
+Summary: Появляется сообщение об ошибке «Error» при вводе 256 латинских букв в поле Name. 
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -46,7 +46,7 @@ Expected result: Сообщение «Success! Hello: Us User»
 ID 04	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Ошибка “Error” в поле Name при вводе 255 латинских букв. 
+Summary: Появляется сообщение об ошибке «Error» при вводе 255 латинских букв в поле Name. 
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -61,7 +61,7 @@ Expected result: Сообщение «Success! Hello: Us User»
 ID 05	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello: 1user User» в поле Name при вводе имени начинающегося с цифры.
+Summary: Появляется сообщение «Success! Hello: 1user User», при вводе  имени начинающегося с цифры в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -76,7 +76,7 @@ Expected result: Сообщение  « Error:Error: All Fields are Required »
 ID 06	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello: _user User» в поле Name при вводе имени начинающегося с спецсимвола.
+Summary: Появляется сообщение «Success! Hello: _user User», при вводе  имени начинающегося с спецсимвола в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -91,7 +91,7 @@ Expected result: Сообщение  « Error:Error: All Fields are Required »
 ID 07	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello: user@user User» в поле Name при вводе имени с @.
+Summary: Появляется сообщение «Success! Hello: user@user User», при вводе  имени с @ в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -106,7 +106,7 @@ Expected result: Сообщение  « Error:Error: All Fields are Required »
 ID 08	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello: !@#$%^&*()»№;%:?>< User» в поле Name при вводе наборов спецсимволов.
+Summary: Появляется сообщение «Success! Hello: !@#$%^&*()»№;%:?>< User», при вводе  наборов спецсимволов в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -121,7 +121,7 @@ Expected result: Сообщение  « Error:Error: All Fields are Required »
 ID 09	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello11111 User» в поле Name при вводе цифр.
+Summary: Появляется сообщение «Success! Hello11111 User», при вводе  цифр в поле Name.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
@@ -137,7 +137,7 @@ Expected result: Сообщение  « Error:Error: All Fields are Required »
 ID 10	
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
-Summary: Появляется сообщение «Success! Hello User U» в поле Surname при вводе одной латинской буквы.
+Summary: Появляется сообщение «Success! Hello User U», при вводе одной латинской буквы в поле Surname.
 Severity: Critical
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
