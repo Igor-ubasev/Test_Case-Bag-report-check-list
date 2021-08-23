@@ -2,7 +2,7 @@ ID 01
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582 
 Summary: Появляется сообщение об ошибке «Error» при вводе 2 латинских букв в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: Us
@@ -17,7 +17,7 @@ ID 02
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582 
 Summary: Появляется сообщение об ошибке «Error» при вводе 3 латинских букв в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: Use
@@ -47,7 +47,7 @@ ID 04
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение об ошибке «Error» при вводе 255 латинских букв в поле Name. 
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: ssrseureuusrssrueruuseuurrruueseseueeersrreesesuuuurresssrrsrruursusuruuesrreessrrseusrresurreeeeesreeursruesrruuueseeeusruerussuuussuuesreuussrsesereseruueeursresurrsseusruesrrueuseuusreusseueueesrsusrusuuuruurerseresreeeususuusrusrerrrrsserssueeusussuus (255 символов)
@@ -62,7 +62,7 @@ ID 05
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello: 1user User», при вводе  имени начинающегося с цифры в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: 1user 
@@ -77,7 +77,7 @@ ID 06
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello: _user User», при вводе  имени начинающегося с спецсимвола в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: _user 
@@ -92,7 +92,7 @@ ID 07
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello: user@user User», при вводе  имени с @ в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: user@user
@@ -122,7 +122,7 @@ ID 09
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello11111 User», при вводе  цифр в поле Name.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: 11111
@@ -169,7 +169,7 @@ ID 12
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User 1user» при вводе фамилии начинающиеся с цифры в поле Surname.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -185,7 +185,7 @@ ID 13
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User _user» при вводе фамилии начинающиеся с спецсимвола в поле Surname.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -200,7 +200,7 @@ ID 14
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User user@user» при вводе фамилии c @ в поле Surname
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -232,7 +232,7 @@ ID 16
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Error:Error: All Fields are Required», если оставить поле Surname пустым.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -247,7 +247,7 @@ ID 17
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User Имя» при вводе в поле Surname кириллических букв.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -262,7 +262,7 @@ ID 18
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User 11111» при вводе в поле Surname цифр.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -277,7 +277,7 @@ ID 19
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User 11111» при вводе в поле Surname кириллических букв.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -488,7 +488,7 @@ ID 33
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля с 4 символами.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -503,7 +503,7 @@ ID 34
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля с 17 символами.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -533,7 +533,7 @@ ID 36
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля начинающегося с спецсимвола.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -548,7 +548,7 @@ ID 37
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля в нижнем регистре и без цифры.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -563,7 +563,7 @@ ID 38
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля в нижнем регистре.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -578,7 +578,7 @@ ID 39
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля в верхнем регистре.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -623,7 +623,7 @@ ID 42
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля с использованием пробела.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -638,7 +638,7 @@ ID 43
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля с использованием дефиса.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -653,7 +653,7 @@ ID 44
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля с использованием буквы в верхнем регистре в середине пароля.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -668,7 +668,7 @@ ID 45
 Author: Igor Ubasev
 Environmet: Windows 10 x64, Яндекс.браузер Версия 21.5.0.582
 Summary: Появляется сообщение «Success! Hello User User» при вводе в поле «Password», пароля начинающегося с цифры.
-Severity: Critical
+Severity: Major
 Steps to reproduce: 
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 2.	Ввести в поле Name: User
@@ -704,7 +704,7 @@ Steps to reproduce:
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 Actual result: Надпись  “Submit” находится не по центру кнопки.
 Expected result: Надпись  “Submit” находится по центру кнопки.
-Attachment:  
+ 
 
 
 
@@ -719,7 +719,7 @@ Steps to reproduce:
 1.	Перейти по ссылке http://itcareer.pythonanywhere.com/
 Actual result: Название поля  “Surame”.
 Expected result: Название поля  “Surname”. 
-Attachment:
+
  
 
 
